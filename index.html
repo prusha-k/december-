@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>December Creative Showcase | Maze Advertising</title>
+<link rel="icon" href="assets/christmas-elements/09_star.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="snow" aria-hidden="true"></canvas>
+<header id="top">
+  <button id="home" aria-label="Back to client directory"><svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor"><rect x="1" y="1" width="7" height="7" rx="1.5"/><rect x="10" y="1" width="7" height="7" rx="1.5"/><rect x="1" y="10" width="7" height="7" rx="1.5"/><rect x="10" y="10" width="7" height="7" rx="1.5"/></svg><span>Clients</span></button>
+  <div id="who"></div>
+  <div id="pips" role="tablist" aria-label="Ideas for this client"></div>
+</header>
+<main id="deck"></main>
+<footer id="bot">
+  <button id="prev" class="nav" aria-label="Previous slide"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12.5 4l-6 6 6 6"/></svg></button>
+  <div id="track" aria-label="Presentation progress"></div>
+  <span id="count"></span>
+  <button id="next" class="nav" aria-label="Next slide"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M7.5 4l6 6-6 6"/></svg></button>
+</footer>
+<div id="wipe" aria-hidden="true"><span class="lbl"></span><div class="band"><img src="assets/christmas-elements/09_star.png" alt=""></div></div>
+<div id="lb" role="dialog" aria-modal="true" aria-label="Enlarged photo"><button class="x" aria-label="Close">&times;</button><button class="la nav" aria-label="Previous photo">&#8249;</button><figure><img alt=""><figcaption></figcaption></figure><button class="ra nav" aria-label="Next photo">&#8250;</button></div>
+<noscript><p style="padding:40px;color:#F6EEDF">This presentation needs JavaScript enabled.</p></noscript>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
